@@ -78,3 +78,14 @@ a:hover {
   color: #ffffff;
   text-decoration: none;
 }
+
+#mypic {
+  display: block;
+  height: 320px;
+  width: 260px;
+}
+
+#social {
+  color: #078A00;
+  font-size: 60px;
+}
