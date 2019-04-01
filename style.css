@@ -103,3 +103,7 @@ a:hover {
   top: 0px;
   z-index: -1
 }
+
+#hr {
+  color: #004400;
+}
