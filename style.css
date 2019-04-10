@@ -13,11 +13,16 @@ hr {
   border-color: #078A00; 
 }
 
-.navbar {
+body:first-child {
   position: fixed;
   width: 100%;
   z-index: 100;
 }
+
+.jumbotron {
+  background-color: rgba(9, 149, 9, 0.8);
+}
+
 
 .faded {
   color: rgba(255, 255, 255, 0.8); 
@@ -112,4 +117,27 @@ a:hover {
 
 #hr {
   color: #004400;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 25px;
+  background-color: #343a40;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px grey; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 10px lime;
+  background: #003F3F; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/*::-webkit-scrollbar-thumb:hover {*/
+  /*background: #078a00; */
 }
